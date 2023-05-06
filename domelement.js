@@ -19,5 +19,5 @@ let searchBarEl=document.getElementById("input_value");
 let ButtonEl=document.getElementById("btn");
 
 ButtonEl.addEventListener("click",()=>{
-    document.getElementById("demo").innerHTML=searchBarEl.value;
+    document.getElementById("demo").innerHTML +=`<ul><li>searchBarEl.value</li></ul>`;
 })
