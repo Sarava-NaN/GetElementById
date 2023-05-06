@@ -20,5 +20,5 @@ let ButtonEl=document.getElementById("btn");
 
 ButtonEl.addEventListener("click",()=>{
     document.getElementById("demo").innerHTML +=`<ul><li>searchBarEl.value</li></ul>`;
-    onclick=searchBarEl.value="";
+    onclick=searchBarEl.value='';
 })
