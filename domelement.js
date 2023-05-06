@@ -20,6 +20,6 @@ let ButtonEl=document.getElementById("btn");
 
 ButtonEl.addEventListener("click",()=>{
     let newLine=document.getElementById("demo");
-    newLine.innerHTML+=`<ul><li>${searchBarEl.value}</li></ul>`;
+    newLine.innerHTML+=`<i>${searchBarEl.value}</li>`;
     onclick=searchBarEl.value='';
 })
